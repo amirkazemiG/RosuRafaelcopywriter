@@ -1,0 +1,588 @@
+/* THE SOCIAL MEDIA BUTTONS CAN ALSO BE SHAPEY */
+header{
+    background-image: url(assets/img/header-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  height: 380px;
+  /* maybe take it back to 340 */
+    border-bottom: 11px solid rgba(255,213,79,1);
+    background-position: left;
+ 
+}
+
+
+
+
+
+.logo-parent{
+padding: 0;
+}
+.logo-img{
+    float: left;
+max-width: 40px;
+    padding-left:20px;
+    padding-top: 10px;
+    
+}
+.logo-parent span{
+    float: left;
+    color: black;
+    /* this ones color can be white */
+    font-size: 20px;
+  
+    padding-top: 18px;
+    padding-left: 15px;
+
+    font-family: 'Roboto', sans-serif;;
+}
+.logo-grid{
+    float: left;
+}
+.navbar{
+
+    text-align: right;
+    padding: 0!important;
+}
+nav a button {
+   
+   color: black;
+  background-color: orange;
+    transition: all 0.2s ease-in-out;
+    border-radius: 20px;
+    border: none;
+
+padding: 10px;
+cursor:pointer;
+    
+  }
+  nav a button:hover{
+   background-color: #FFD54F;
+    color: black;
+  }
+  .home-btn{
+   padding-inline: 15px;
+  }
+.navbar a{
+   color: black;
+    text-decoration: none;
+    margin-inline: 10px;
+ 
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+   display: inline-block;
+   margin-top: 20px;
+ 
+ 
+}
+.navbar a:first-child{
+    border-bottom: 4px solid orange;
+    padding-bottom: 10px;
+}
+/* .navbar a:last-child{
+    margin-right: 50px;
+} */
+.copywriting-title{
+
+display:block;
+   text-align: center;
+    font-size:84px ;
+
+    font-family: 'Montserrat', sans-serif;
+
+   
+}
+.name{
+    
+font-family: 'Lobster', cursive;
+font-size: 50px;
+color: rgb(33, 33, 33);
+text-align: center;
+
+}
+body{
+    overflow-x: hidden;
+}
+.hidden{
+    visibility: hidden;
+}
+/* .the-whole{
+    background-color:#F5F2F0 ;
+    height: 120vh;
+}
+.the-whole div:first-child{
+    visibility: hidden    
+}
+.rosu-img-parent{
+padding: 0!important;
+    float: left;
+    max-height: 300px;
+    max-width: 300px;
+}
+.rosu-img{
+    float: left;
+ width: 70%;
+  
+width: 100%;
+height: 100%;
+transform: scale(1.5);
+
+
+margin-top: 20px;
+
+}
+.info-box{
+  padding: 0!important;
+  margin-top: 20px;
+float: right;
+  
+ overflow-x: auto;
+background-color: white;
+}
+.info-box1{
+    border: 1px solid rgb(238, 236, 236);
+    border-radius: 2px;
+}
+.info-box p,ol li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 33);
+    font-size: 17.3333px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.info-box ol li{
+    list-style-type:square;
+}
+.info-box p:first-child{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+} */
+.rosu-img-parent{
+    float: left;
+    padding: 0!important;
+ 
+}
+.information{
+    border: 1px solid gray;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 3px 0 gray;
+/* transition: 0.5s; */
+}
+.rosu-img-parent img{
+float: left;
+    text-align: left;
+    display: inline-block;
+    margin-top: 20px;
+}
+.info-parent{
+    padding: 0!important;
+
+}
+.information:hover{
+   /* transform: scale(0.9); */
+}
+.information p:first-child{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(33, 33, 33);
+}
+.information p,ol li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 33, 33);
+    font-size: 17.3333px;
+    font-weight: 400;
+ margin-left: 10px;
+}
+.information ol li{
+    list-style-type:disc;
+    margin-left: -5px;
+}
+.body-section{
+    background-color:#F5F2F0 ;
+    min-height: 100vh;
+}
+.join-discord{
+  background-color: rgba(255,213,79,1);
+  /* border: none;
+  border-radius: 10px;
+
+  max-width: 500px;
+
+  line-height: 22px;
+  margin-bottom: 10px;
+ padding: 7px;
+ padding-inline: 100px;
+
+ font-size: 17.3333px;
+ color:rgb(33, 33, 33) ;
+ font-family: 'Roboto', sans-serif;
+
+ cursor: pointer;
+ transition: 0.5s linear;
+ transition-delay: none; */
+/*  fix the header */
+
+
+
+
+
+ display:inline-block;
+padding:0.7em 1.4em;
+margin:0 0.3em 0.3em 0;
+border-radius:0.15em;
+box-sizing: border-box;
+transition: 0.2s;
+
+font-family:'Roboto',sans-serif;
+text-transform:uppercase;
+font-weight:400;
+cursor: pointer;
+
+box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+text-align:center;
+position:relative;
+
+/* maybe change the colors into red for cta */
+/* display: inline-block;
+padding: 10px 20px;
+background-color: #ff0000;
+font-family:'Roboto',sans-serif;
+color: #ffffff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+transition: background-color 0.3s ease; */
+}
+/* .join-discord:hover{
+    background-color: #cc0000;
+} */
+.join-discord:active{
+    top:0.1em;
+}
+.join-discord-parent{
+    text-align: center;
+    display: block;
+    text-decoration:none!important;
+    /* make the links ok */
+
+   
+}
+@media all and (max-width:30em){
+    .join-discord{
+    display:block;
+    margin:0.4em auto;
+    text-decoration: none;
+}
+    }
+.join-discord:hover{
+    background-color: rgb(201, 171, 75);
+    color: white;
+}
+.job{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17.3333px;
+    color: rgb(33, 33, 33);
+    text-align: center;
+    margin-top: -20px;
+}
+@media all and (max-width:600px){
+   .information{
+    margin-left: -20px;
+   }
+ 
+}
+.social-media{
+    text-align: center;
+
+}
+.social-media a{
+ 
+    border-radius: 100%;
+    background-color: white;
+  
+    /* padding:  10px; */
+    display: inline-block;
+    padding: 10px;
+   transition: 0.5s ;
+ 
+}
+.social-media a:hover{
+    transform: scale(1.2);
+}
+.social-media i{
+    font-size: 30px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    
+}
+/* Font name: Roboto
+
+Font size: 17.3333px
+
+Font weight: 400
+
+Line height: 22px
+
+Font color: rgb(33, 33, 33) */
+/* @media screen and (max-width:) */
+/* #F5F2F0 */
+/* use utility classes for this project to make it look more professional */
+
+/* maybe create a menu for the guy for the smaller screens */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   
+    <section class="container">
+      
+    <!-- <h1 class="name">Rosu Rafael</h1> -->
+  <div class="row">
+    <div class="col-xs-4 col-s-4 col-md-4 col-l-4 col-xl-4 rosu-img-parent" > 
+         <img src="assets/img/rosu-img.jpg" alt="" class="img-responsive rosu-img"></div>
+    <!-- maybe the font-weight is too much -->
+    <div class="info-box col-xs-7 col-s-7 col-md-7 col-l-7 col-xl-7 ">
+ <div class="info-box1">
+    <p>Hello everyone!</p>
+    <p>My name is Rosu Rafael, I'm a freelance copywriter, and I'm 21 years old.</p>
+    <p>I have one year of experience as an email copywriter, and I'm always looking for new opportunities to gain even more experience.</p>
+    <p>I'm also a mentor for 125 guys, I'm teaching them the art of copywriting.</p>
+    <p> If you'd like, you can join the server as well by clicking the button below!</p>
+    <p> The niches I specialize in, and the niches I worked in are:</p>
+<ol>
+   <li>Self-improvement</li>
+   <li>Business/Marketing</li>
+</ol>
+<p>I consider myself a strong individual, and I'm the type of individual that's offering respect if I'm receiving it.</p>
+<p>In short, I'm a great listener and the guide you may need for your business.</p>
+<p>I'm looking forward to talking with you!</p>
+<p>Have a great day!</p>
+ </div>
+ 
+    </div>
+    
+  </div>
+  
+    </section>
+
+
+
+
+
+
+
+THE REASON YOU SHOULD NEVER USE WORDRPESS AND SHOPIFY AND BS LIKETHAT:
+
+LOAD
+NEED PROGRAMMERS
+SPEED
+BS
+NOT FEATURES
+HUMAN BRAIN
+
+
+
+
+
+
+
+
+
+ <div class="container">
+    <div class="row">
+        <div class="col-xs-7 col-s-7 col-md-7 col-l-7 col-xl-7 info-parent">
+       <div class="info">
+        <p>Hello everyone!</p>
+        <p>My name is Rosu Rafael, I'm a freelance copywriter, and I'm 21 years old.</p>
+        <p>I have one year of experience as an email copywriter, and I'm always looking for new opportunities to gain even more experience.</p>
+        <p>I'm also a mentor for 125 guys, I'm teaching them the art of copywriting.</p>
+        <p> If you'd like, you can join the server as well by clicking the button below!</p>
+        <p> The niches I specialize in, and the niches I worked in are:</p>
+    <ol>
+       <li>Self-improvement</li>
+       <li>Business/Marketing</li>
+    </ol>
+    <p>I consider myself a strong individual, and I'm the type of individual that's offering respect if I'm receiving it.</p>
+    <p>In short, I'm a great listener and the guide you may need for your business.</p>
+    <p>I'm looking forward to talking with you!</p>
+    <p>Have a great day!</p>
+       </div>
+        </div>
+    </div>
+    <div class="col-xs-5 col-s-5 col-md-5 col-l-5 col-xl-5 rosu-img-parent">
+        <img src="assets/img/rosu-img.jpg" alt="" class="img-responsive ">
+    </div>
+  </div> */
+  
+  /* .ham{
+    display: none;
+
+  } */
+@media screen and (max-width:694px){
+    .copywriting-title{
+        font-size: 40px;
+       }
+       .logo-grid span{
+        font-size: 17px;
+        margin-left: -10px;
+       }
+       /* nav a button{
+        display: none;
+       }
+       .nav .ham{
+        display: block;
+        float: right;
+        width: 300px;
+        background-color: black;
+        height: 300px;
+        color: white;
+       }
+       .nav.responsive{
+        position: relative
+        ;
+       }
+       .nav.responsive .ham{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+       }
+       .nav.responsive a button{
+        float: right;
+        display: block;
+        text-align: right;
+       } */
+  }
+  .copywriting{
+    border: 1px solid white;
+    margin-top: 50px;
+background-color: white;
+padding: 30px;
+  }
+.copywriting h2{
+    
+
+    font-family:'Roboto',sans-serif;
+    
+    color: rgb(33, 33, 33)
+    ;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+
+  }
+  .copywriting p{
+    font-size: 17.333px;
+  
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.9;
+    line-height: 26.8667px;
+
+ color: rgb(33, 33, 33)
+  }
+ 
+
+  /* MAKE THE NAV OR MENU STICKY */
+
+  /* ASK IF YOU CAN MAKE CHANGES AND MAKE IT A LOT BETTER */
+  
+  @media screen and (max-width:615px){
+    nav a button{
+      
+       font-size: 12px;
+     
+      width: 60px;
+      text-align: center;
+      height: 30px;
+      padding: 0;
+      margin-top: -10px;
+    }
+   
+    .logo-grid span{
+        display: none;
+
+    }
+  
+}
+@media screen and (max-width:768px) and (min-width:616px){
+    .logo-grid  span{
+    display: none;
+
+    }
+}
+@media screen and (max-width:520px){
+    .logo-img{
+        max-width: 38px;
+       padding-left: 10px;
+    }
+}
+@media screen and (max-width:538px){
+header{
+    background-position:center,bottom left;
+}
+}
+@media screen and (max-width:615px){
+    .copywriting-title{
+        padding-top: 60px;
+        font-size: 35px;
+    }
+}
+.hidden-color{
+
+    background-color: #F5F2F0;
+ position: absolute;
+ width: 100%;
+ height: 40px;
+  color:#F5F2F0 ;
+}
+.flip-card{
+    height: 500px;
+    width: 500px;
+    perspective: 800px;
+}
+.flip-card-inner{
+    height: 100%;
+    width: 100%;
+    transform-style: preserve-3d
+    ;
+    position: relative;
+    transition: transform 0.6s;
+}
+.flip-card-front,.flip-card-back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+}
+.flip-card-front img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.flip-card-back{
+    backface-visibility: hidden;
+    transform: rotatey(180deg);
+    color: white;
+    font: 30px helvetica;
+    text-align: center;
+    background-image: linear-gradient(45deg,red,blue,yellow,orange,black);
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotatey(180deg);
+}
+
+
+
+/* use flip cards for portfolio and when they hor it shows like how he he;ped what he used */
